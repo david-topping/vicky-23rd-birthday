@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// base must match the GitHub repo name for GitHub Pages
+// Served from the root of the custom domain in public/CNAME
 export default defineConfig({
   plugins: [react()],
-  base: '/vicky-23rd-birthday/',
+  base: '/',
 })
